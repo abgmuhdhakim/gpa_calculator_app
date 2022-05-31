@@ -2,19 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Calculate : MonoBehaviour
 {
-    void Start()
-    {
+    public InputField Credit;
+    public InputField Grade;
 
-    }
-    
-    void Update()
-    {
-        Debug.Log ("Hello");
-    }
+    public TextMeshProUGUI InputText;
 
+    public void Calc()
+    {
+        float cred = float.Parse(Credit.text);
+        float gred = float.Parse(Grade.text);
+
+        InputText.text = (cred + gred).ToString();
+    }
     /*public float Calc()
     {
         if (x == A || x == A+)
