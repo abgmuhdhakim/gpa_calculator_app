@@ -1,26 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    [SerializeField] GameObject ExitPanel;
+    bool QuitOpen = false;
     // Update is called once per frame
     void Update()
     {
-        Quit();
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (QuitOpen == false)
+            {
+                QuitPanel();
+            }
+            else
+            {
+                MenuPanel();
+            }
+        }
     }
 
     public void Quit()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
+        Application.Quit();
+    }
+
+    public void QuitPanel()
+    {
+        ExitPanel.SetActive(true);
+        QuitOpen = true;
+    }
+
+    public void MenuPanel()
+    {
+        ExitPanel.SetActive(false);
+        QuitOpen = false;
     }
 }
