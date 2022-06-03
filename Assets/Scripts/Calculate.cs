@@ -27,7 +27,7 @@ public class Calculate : MonoBehaviour
     public InputField Grade10;
     public InputField Credit10;
     public TextMeshProUGUI OutputText;
-    bool linet = false;
+    bool linet = true;
     bool line6t = false;
     bool line7t = false;
     bool line8t = false;
@@ -41,44 +41,45 @@ public class Calculate : MonoBehaviour
         float gred3 = float.Parse(Grade3.text);
         float gred4 = float.Parse(Grade4.text);
         float gred5 = float.Parse(Grade5.text);
-        float gred6 = float.Parse(Grade6.text);
-        float gred7 = float.Parse(Grade7.text);
-        float gred8 = float.Parse(Grade8.text);
-        float gred9 = float.Parse(Grade9.text);
-        float gred10 = float.Parse(Grade10.text);
         float cred1 = float.Parse(Credit1.text);
         float cred2 = float.Parse(Credit2.text);
         float cred3 = float.Parse(Credit3.text);
         float cred4 = float.Parse(Credit4.text);
         float cred5 = float.Parse(Credit5.text);
-        float cred6 = float.Parse(Credit6.text);
-        float cred7 = float.Parse(Credit7.text);
-        float cred8 = float.Parse(Credit8.text);
-        float cred9 = float.Parse(Credit9.text);
-        float cred10 = float.Parse(Credit10.text);
-
+        
         if (linet == true)
         {
             OutputText.text = ((line1() + line2() + line3() + line4() + line5()) / total5()).ToString("F2");
         }
         else if (line6t == true)
         {
+            float cred6 = float.Parse(Credit6.text);
+            float gred6 = float.Parse(Grade6.text);
+            
             OutputText.text = ((line1() + line2() + line3() + line4() + line5() + line6())/ total6()).ToString("F2");
         }
         else if (line7t == true)
         {
+            float gred7 = float.Parse(Grade7.text);
+            float cred7 = float.Parse(Credit7.text);
             OutputText.text = ((line1() + line2() + line3() + line4() + line5() + line6() + line7())/ total7()).ToString("F2");
         }
         else if (line8t == true)
         {
+            float gred8 = float.Parse(Grade8.text);
+            float cred8 = float.Parse(Credit8.text);
             OutputText.text = ((line1() + line2() + line3() + line4() + line5() + line6() + line7() + line8())/ total8()).ToString("F2");
         }
         else if (line9t == true)
         {
+            float gred9 = float.Parse(Grade9.text);
+            float cred9 = float.Parse(Credit9.text);
             OutputText.text = ((line1() + line2() + line3() + line4() + line5() + line6() + line7() + line8() + line9())/ total9()).ToString("F2");
         }
         else if (line10t == true)
         {
+            float gred10 = float.Parse(Grade10.text);
+            float cred10 = float.Parse(Credit10.text);
             OutputText.text = ((line1() + line2() + line3() + line4() + line5() + line6() + line7() + line8() + line9() + line10())/ total10()).ToString("F2");
         }
 
@@ -105,22 +106,32 @@ public class Calculate : MonoBehaviour
         }
         float line6()
         {
+            float cred6 = float.Parse(Credit6.text);
+            float gred6 = float.Parse(Grade6.text);
             return (cred6 * gred6);
         }
         float line7()
         {
+            float gred7 = float.Parse(Grade7.text);
+            float cred7 = float.Parse(Credit7.text);
             return (cred7 * gred7);
         }
         float line8()
         {
+            float gred8 = float.Parse(Grade8.text);
+            float cred8 = float.Parse(Credit8.text);
             return (cred8 * gred8);
         }
         float line9()
         {
+            float gred9 = float.Parse(Grade9.text);
+            float cred9 = float.Parse(Credit9.text);
             return (cred9 * gred9);
         }
         float line10()
         {
+            float gred10 = float.Parse(Grade10.text);
+            float cred10 = float.Parse(Credit10.text);
             return (cred10 * gred10);
         }
 
@@ -130,22 +141,37 @@ public class Calculate : MonoBehaviour
         }
         float total6()
         {
+            float cred6 = float.Parse(Credit6.text);
             return (cred1 + cred2 + cred3 + cred4 + cred5 + cred6);
         }
         float total7()
         {
+            float cred6 = float.Parse(Credit6.text);
+            float cred7 = float.Parse(Credit7.text);
             return (cred1 + cred2 + cred3 + cred4 + cred5 + cred6 + cred7);
         }
         float total8()
         {
+            float cred6 = float.Parse(Credit6.text);
+            float cred7 = float.Parse(Credit7.text);
+            float cred8 = float.Parse(Credit8.text);
             return (cred1 + cred2 + cred3 + cred4 + cred5 + cred6 + cred7 + cred8);
         }
         float total9()
         {
+            float cred6 = float.Parse(Credit6.text);
+            float cred7 = float.Parse(Credit7.text);
+            float cred8 = float.Parse(Credit8.text);
+            float cred9 = float.Parse(Credit9.text);
             return (cred1 + cred2 + cred3 + cred4 + cred5 + cred6 + cred7 + cred8 + cred9);
         }
         float total10()
         {
+            float cred6 = float.Parse(Credit6.text);
+            float cred7 = float.Parse(Credit7.text);
+            float cred8 = float.Parse(Credit8.text);
+            float cred9 = float.Parse(Credit9.text);
+            float cred10 = float.Parse(Credit10.text);
             return (cred1 + cred2 + cred3 + cred4 + cred5 + cred6 + cred7 + cred8 + cred9 + cred10);
         }
     }
