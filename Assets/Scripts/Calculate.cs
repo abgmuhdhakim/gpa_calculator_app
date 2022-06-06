@@ -27,23 +27,31 @@ public class Calculate : MonoBehaviour
     public InputField Grade10;
     public InputField Credit10;
     public TextMeshProUGUI OutputText;
+    Dropdown drop;
+    [SerializeField] GameObject Menu;
 
-    bool linet = false;
+    bool linet = true;
     bool line2t = false;
     bool line3t = false;
     bool line4t = false;
-    bool line5t = true;
+    bool line5t = false;
     bool line6t = false;
     bool line7t = false;
     bool line8t = false;
     bool line9t = false;
     bool line10t = false;
 
+
+    void Start()
+    {
+        drop = Menu.GetComponent<Dropdown>();
+    }//s
     public void Calc()
     {
         float cred1 = float.Parse(Credit1.text);
-        float gred1 = float.Parse(Grade1.text);
-        
+        //float gred1 = float.Parse(Grade1.text);
+        float grad1 = drop.Lining;
+
         if (linet == true)
         {
             OutputText.text = (line1() / cred1).ToString("F2");
@@ -87,7 +95,7 @@ public class Calculate : MonoBehaviour
 
         float line1()
         {
-            return (cred1 * gred1);
+            return (cred1 * grad1);
         }
 
         float line2()
