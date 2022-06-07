@@ -4,515 +4,516 @@ using UnityEngine;
 
 public class Dropdown : MonoBehaviour
 {
-    public float Lining;
+    public float Line1, Line2, Line3, Line4, Line5, Line6, Line7, Line8, Line9, Line10;
+
     public void GradePoint1(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line1 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line1 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line1 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line1 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line1 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line1 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line1 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line1 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line1 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line1 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line1 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line1 = 0.00f;
         }
     }
     public void GradePoint2(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line2 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line2 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line2 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line2 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line2 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line2 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line2 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line2 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line2 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line2 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line2 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line2 = 0.00f;
         }
     }
     public void GradePoint3(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line3 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line3 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line3 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line3 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line3 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line3 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line3 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line3 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line3 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line3 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line3 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line3 = 0.00f;
         }
     }
     public void GradePoint4(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line4 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line4 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line4 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line4 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line4 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line4 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line4 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line4 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line4 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line4 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line4 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line4 = 0.00f;
         }
     }
     public void GradePoint5(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line5 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line5 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line5 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line5 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line5 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line5 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line5 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line5 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line5 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line5 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line5 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line5 = 0.00f;
         }
     }
     public void GradePoint6(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line6 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line6 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line6 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line6 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line6 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line6 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line6 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line6 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line6 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line6 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line6 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line6 = 0.00f;
         }
     }
     public void GradePoint7(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line7 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line7 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line7 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line7 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line7 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line7 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line7 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line7 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line7 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line7 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line7 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line7 = 0.00f;
         }
     }
     public void GradePoint8(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line8 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line8 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line8 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line8 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line8 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line8 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line8 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line8 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line8 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line8 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line8 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line8 = 0.00f;
         }
     }
     public void GradePoint9(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line9 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line9 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line9 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line9 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line9 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line9 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line9 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line9 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line9 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line9 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line9 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line9 = 0.00f;
         }
     }
     public void GradePoint10(int x)
     {
         if (x == 0)
         {
-            Lining = 0.00f;
+            Line10 = 0.00f;
         }
         else if (x == 1)
         {
-            Lining = 4.00f;
+            Line10 = 4.00f;
         }
         else if (x == 2)
         {
-            Lining = 3.75f;
+            Line10 = 3.75f;
         }
         else if (x == 3)
         {
-            Lining = 3.50f;
+            Line10 = 3.50f;
         }
         else if (x == 4)
         {
-            Lining = 3.25f;
+            Line10 = 3.25f;
         }
         else if (x == 5)
         {
-            Lining = 3.00f;
+            Line10 = 3.00f;
         }
         else if (x == 6)
         {
-            Lining = 2.75f;
+            Line10 = 2.75f;
         }
         else if (x == 7)
         {
-            Lining = 2.50f;
+            Line10 = 2.50f;
         }
         else if (x == 8)
         {
-            Lining = 2.25f;
+            Line10 = 2.25f;
         }
         else if (x == 9)
         {
-            Lining = 2.00f;
+            Line10 = 2.00f;
         }
         else if (x == 10)
         {
-            Lining = 1.00f;
+            Line10 = 1.00f;
         }
         else
         {
-           Lining = 0.00f;
+           Line10 = 0.00f;
         }
     }
 }

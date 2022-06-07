@@ -6,51 +6,38 @@ using TMPro;
 
 public class Calculate : MonoBehaviour
 {
-    public InputField Grade1;
     public InputField Credit1;
-    public InputField Grade2;
     public InputField Credit2;
-    public InputField Grade3;
     public InputField Credit3;
-    public InputField Grade4;
     public InputField Credit4;
-    public InputField Grade5;
     public InputField Credit5;
-    public InputField Grade6;
     public InputField Credit6;
-    public InputField Grade7;
     public InputField Credit7;
-    public InputField Grade8;
     public InputField Credit8;
-    public InputField Grade9;
     public InputField Credit9;
-    public InputField Grade10;
     public InputField Credit10;
     public TextMeshProUGUI OutputText;
-    Dropdown drop;
-    [SerializeField] GameObject Menu;
-
-    bool linet = true;
+    bool linet = false;
     bool line2t = false;
     bool line3t = false;
     bool line4t = false;
-    bool line5t = false;
+    bool line5t = true;
     bool line6t = false;
     bool line7t = false;
     bool line8t = false;
     bool line9t = false;
     bool line10t = false;
-
+    Dropdown drop;
+    [SerializeField] GameObject Menu;
 
     void Start()
     {
         drop = Menu.GetComponent<Dropdown>();
-    }//s
+    }
     public void Calc()
     {
         float cred1 = float.Parse(Credit1.text);
-        //float gred1 = float.Parse(Grade1.text);
-        float grad1 = drop.Lining;
+        float grad1 = drop.Line1;
 
         if (linet == true)
         {
@@ -101,56 +88,56 @@ public class Calculate : MonoBehaviour
         float line2()
         {
             float cred2 = float.Parse(Credit2.text);
-            float gred2 = float.Parse(Grade2.text);
-            return (cred2 * gred2);
+            float grad2 = drop.Line2;
+            return (cred2 * grad2);
         }
         float line3()
         {
             float cred3 = float.Parse(Credit3.text);
-            float gred3 = float.Parse(Grade3.text);
-            return (cred3 * gred3);
+            float grad3 = drop.Line3;
+            return (cred3 * grad3);
         }
         float line4()
         {
             float cred4 = float.Parse(Credit4.text);
-            float gred4 = float.Parse(Grade4.text);
-            return (cred4 * gred4);
+            float grad4 = drop.Line4;
+            return (cred4 * grad4);
         }
         float line5()
         {
             float cred5 = float.Parse(Credit5.text);
-            float gred5 = float.Parse(Grade5.text);
-            return (cred5 * gred5);
+            float grad5 = drop.Line5;
+            return (cred5 * grad5);
         }
         float line6()
         {
             float cred6 = float.Parse(Credit6.text);
-            float gred6 = float.Parse(Grade6.text);
-            return (cred6 * gred6);
+            float grad6 = drop.Line6;
+            return (cred6 * grad6);
         }
         float line7()
         {
-            float gred7 = float.Parse(Grade7.text);
             float cred7 = float.Parse(Credit7.text);
-            return (cred7 * gred7);
+            float grad7 = drop.Line7;
+            return (cred7 * grad7);
         }
         float line8()
         {
-            float gred8 = float.Parse(Grade8.text);
             float cred8 = float.Parse(Credit8.text);
-            return (cred8 * gred8);
+            float grad8 = drop.Line8;
+            return (cred8 * grad8);
         }
         float line9()
         {
-            float gred9 = float.Parse(Grade9.text);
             float cred9 = float.Parse(Credit9.text);
-            return (cred9 * gred9);
+            float grad9 = drop.Line9;
+            return (cred9 * grad9);
         }
         float line10()
         {
-            float gred10 = float.Parse(Grade10.text);
             float cred10 = float.Parse(Credit10.text);
-            return (cred10 * gred10);
+            float grad10 = drop.Line10;
+            return (cred10 * grad10);
         }
 
         float total2()
