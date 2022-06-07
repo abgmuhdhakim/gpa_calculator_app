@@ -3460,6 +3460,8 @@ GameObject:
   - component: {fileID: 200643486}
   - component: {fileID: 200643487}
   - component: {fileID: 200643488}
+  - component: {fileID: 200643489}
+  - component: {fileID: 200643490}
   m_Layer: 0
   m_Name: Menu
   m_TagString: Untagged
@@ -3546,6 +3548,35 @@ MonoBehaviour:
   Line8: 0
   Line9: 0
   Line10: 0
+--- !u!114 &200643489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200643484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c48aa56cbae6a4aa41e27cf9b3be7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _androidGameId: 4787219
+  _iOSGameId: 4787218
+  _testMode: 1
+--- !u!114 &200643490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200643484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d614e8d51e0904780518d1d456d12d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bannerPosition: 4
+  _androidAdUnitId: Banner_Android
 --- !u!1 &210471019
 GameObject:
   m_ObjectHideFlags: 0
