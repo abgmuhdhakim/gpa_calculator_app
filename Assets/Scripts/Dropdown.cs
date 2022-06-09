@@ -21,7 +21,7 @@ public class Dropdown : MonoBehaviour
         }
         else if (x == 1)
         {
-            Line1 = float.Parse(_1.text);
+            Line1 = 4.00f;
         }
         else if (x == 2)
         {
@@ -72,7 +72,7 @@ public class Dropdown : MonoBehaviour
         }
         else if (x == 1)
         {
-            Line2 = 4.00f;
+            Line2 = float.Parse(_1.text);
         }
         else if (x == 2)
         {
