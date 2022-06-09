@@ -1,10 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Dropdown : MonoBehaviour
 {
     public float Line1, Line2, Line3, Line4, Line5, Line6, Line7, Line8, Line9, Line10;
+    [SerializeField] InputField _1;
+    void Start()
+    {
+        _1.text = (4.00f).ToString();
+    }
 
     public void GradePoint1(int x)
     {
@@ -14,7 +21,7 @@ public class Dropdown : MonoBehaviour
         }
         else if (x == 1)
         {
-            Line1 = 4.00f;
+            Line1 = float.Parse(_1.text);
         }
         else if (x == 2)
         {
